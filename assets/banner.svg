@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Vexila: live city data for Bangkok">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0d1117"/>
+    <stop offset=".55" stop-color="#1a1033"/>
+    <stop offset="1" stop-color="#2a1458"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#a78bfa" stop-opacity=".45"/>
+    <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="halo" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#c4b5fd" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#ede9fe"/>
+    <stop offset="1" stop-color="#c4b5fd" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#a78bfa" stroke-opacity=".07"/>
+  </pattern>
+</defs>
+<style>
+  text { font-family: 'Segoe UI', 'Noto Sans', 'Noto Sans Thai', Ubuntu, sans-serif; }
+  .name { font-size: 76px; font-weight: 700; fill: #f5f3ff; letter-spacing: 2px; }
+  .sub { font-size: 24px; fill: #c4b5fd; }
+  .th { font-size: 19px; fill: #8b949e; }
+  .halo { stroke-dasharray: 70 355; animation: shine 5s linear infinite; }
+  .pulse { animation: pulse 4s ease-in-out infinite; }
+  .star { animation: twinkle 3s ease-in-out infinite; }
+  @keyframes shine { to { stroke-dashoffset: -425; } }
+  @keyframes pulse { 0%, 100% { opacity: .55; } 50% { opacity: 1; } }
+  @keyframes twinkle { 0%, 100% { opacity: .15; } 50% { opacity: .9; } }
+  @media (prefers-reduced-motion: reduce) { .halo, .pulse, .star { animation: none; } }
+</style>
+<rect width="1200" height="260" fill="url(#bg)"/>
+<rect width="1200" height="260" fill="url(#grid)"/>
+
+<!-- halo, a nod to the avatar -->
+<circle cx="960" cy="130" r="120" fill="url(#glow)" class="pulse"/>
+<ellipse cx="960" cy="112" rx="92" ry="26" fill="none" stroke="url(#halo)" stroke-width="3" opacity=".7"/>
+<ellipse cx="960" cy="112" rx="92" ry="26" fill="none" stroke="#f5f3ff" stroke-width="4" stroke-linecap="round" class="halo"/>
+
+<!-- a few map pins / stars -->
+<g fill="#ede9fe">
+  <circle cx="880" cy="190" r="2.5" class="star" style="animation-delay:0s"/>
+  <circle cx="1040" cy="70" r="2" class="star" style="animation-delay:.8s"/>
+  <circle cx="1100" cy="180" r="2.5" class="star" style="animation-delay:1.6s"/>
+  <circle cx="820" cy="60" r="1.8" class="star" style="animation-delay:2.2s"/>
+  <circle cx="1150" cy="110" r="1.6" class="star" style="animation-delay:1.1s"/>
+  <circle cx="760" cy="150" r="1.6" class="star" style="animation-delay:.4s"/>
+</g>
+<g transform="translate(960 168)" class="pulse">
+  <path d="M0 -26c-10 0-18 8-18 18 0 13 18 30 18 30s18-17 18-30c0-10-8-18-18-18z" fill="#8b5cf6" fill-opacity=".9"/>
+  <circle cx="0" cy="-8" r="6.5" fill="#1a1033"/>
+</g>
+
+<text x="72" y="128" class="name">Vexila</text>
+<text x="76" y="172" class="sub">Live city data for Bangkok — traffic, floods, AI cameras</text>
+<text x="76" y="206" class="th">ทำเว็บข้อมูลเมืองแบบสด ๆ ให้ทุกคนอ่านเข้าใจ</text>
+</svg>
