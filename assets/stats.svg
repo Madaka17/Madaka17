@@ -13,8 +13,8 @@
 <rect x="0.5" y="0.5" width="349" height="199" rx="10" fill="url(#bg)" stroke="#3b2a6b"/>
 <text x="24" y="36" class="title">GitHub activity</text>
 <g><circle cx="30" cy="65" r="4" fill="#a78bfa"/><text x="44" y="70" class="label">Contributions (last year)</text><text x="326" y="70" class="value" text-anchor="end">448</text></g>
-<g><circle cx="30" cy="91" r="4" fill="#a78bfa"/><text x="44" y="96" class="label">Commits</text><text x="326" y="96" class="value" text-anchor="end">434</text></g>
+<g><circle cx="30" cy="91" r="4" fill="#a78bfa"/><text x="44" y="96" class="label">Commits</text><text x="326" y="96" class="value" text-anchor="end">433</text></g>
 <g><circle cx="30" cy="117" r="4" fill="#a78bfa"/><text x="44" y="122" class="label">Pull requests</text><text x="326" y="122" class="value" text-anchor="end">11</text></g>
-<g><circle cx="30" cy="143" r="4" fill="#a78bfa"/><text x="44" y="148" class="label">Public repositories</text><text x="326" y="148" class="value" text-anchor="end">3</text></g>
+<g><circle cx="30" cy="143" r="4" fill="#a78bfa"/><text x="44" y="148" class="label">Public repositories</text><text x="326" y="148" class="value" text-anchor="end">4</text></g>
 <g><circle cx="30" cy="169" r="4" fill="#a78bfa"/><text x="44" y="174" class="label">Stars</text><text x="326" y="174" class="value" text-anchor="end">0</text></g>
 </svg>

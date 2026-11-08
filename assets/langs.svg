@@ -14,7 +14,7 @@
 <text x="24" y="36" class="title">Languages (public repos)</text>
 <clipPath id="bar"><rect x="24" y="52" width="302" height="8" rx="4"/></clipPath>
 <rect x="24" y="52" width="302" height="8" rx="4" fill="#3b2a6b"/>
-<g clip-path="url(#bar)"><rect x="24.0" y="52" width="141.9" height="8" fill="#3572A5"/><rect x="165.9" y="52" width="133.8" height="8" fill="#f1e05a"/><rect x="299.7" y="52" width="7.6" height="8" fill="#3178c6"/><rect x="307.3" y="52" width="6.6" height="8" fill="#f34b7d"/><rect x="313.9" y="52" width="4.0" height="8" fill="#663399"/></g>
+<g clip-path="url(#bar)"><rect x="24.0" y="52" width="142.1" height="8" fill="#3572A5"/><rect x="166.1" y="52" width="133.7" height="8" fill="#f1e05a"/><rect x="299.7" y="52" width="7.6" height="8" fill="#3178c6"/><rect x="307.3" y="52" width="6.6" height="8" fill="#f34b7d"/><rect x="314.0" y="52" width="4.0" height="8" fill="#663399"/></g>
 <g><circle cx="30" cy="87" r="5" fill="#3572A5"/><text x="44" y="92" class="label" style="fill:#e6edf3">Python</text><text x="326" y="92" class="label" text-anchor="end">47.0%</text></g>
 <g><circle cx="30" cy="109" r="5" fill="#f1e05a"/><text x="44" y="114" class="label" style="fill:#e6edf3">JavaScript</text><text x="326" y="114" class="label" text-anchor="end">44.3%</text></g>
 <g><circle cx="30" cy="131" r="5" fill="#3178c6"/><text x="44" y="136" class="label" style="fill:#e6edf3">TypeScript</text><text x="326" y="136" class="label" text-anchor="end">2.5%</text></g>
