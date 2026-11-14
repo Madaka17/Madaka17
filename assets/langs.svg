@@ -14,10 +14,10 @@
 <text x="24" y="36" class="title">Languages (public repos)</text>
 <clipPath id="bar"><rect x="24" y="52" width="302" height="8" rx="4"/></clipPath>
 <rect x="24" y="52" width="302" height="8" rx="4" fill="#3b2a6b"/>
-<g clip-path="url(#bar)"><rect x="24.0" y="52" width="151.6" height="8" fill="#3572A5"/><rect x="175.6" y="52" width="125.7" height="8" fill="#f1e05a"/><rect x="301.2" y="52" width="7.1" height="8" fill="#3178c6"/><rect x="308.3" y="52" width="6.2" height="8" fill="#f34b7d"/><rect x="314.6" y="52" width="3.8" height="8" fill="#663399"/></g>
+<g clip-path="url(#bar)"><rect x="24.0" y="52" width="151.7" height="8" fill="#3572A5"/><rect x="175.7" y="52" width="125.6" height="8" fill="#f1e05a"/><rect x="301.3" y="52" width="7.1" height="8" fill="#3178c6"/><rect x="308.4" y="52" width="6.2" height="8" fill="#f34b7d"/><rect x="314.6" y="52" width="3.8" height="8" fill="#663399"/></g>
 <g><circle cx="30" cy="87" r="5" fill="#3572A5"/><text x="44" y="92" class="label" style="fill:#e6edf3">Python</text><text x="326" y="92" class="label" text-anchor="end">50.2%</text></g>
 <g><circle cx="30" cy="109" r="5" fill="#f1e05a"/><text x="44" y="114" class="label" style="fill:#e6edf3">JavaScript</text><text x="326" y="114" class="label" text-anchor="end">41.6%</text></g>
-<g><circle cx="30" cy="131" r="5" fill="#3178c6"/><text x="44" y="136" class="label" style="fill:#e6edf3">TypeScript</text><text x="326" y="136" class="label" text-anchor="end">2.4%</text></g>
+<g><circle cx="30" cy="131" r="5" fill="#3178c6"/><text x="44" y="136" class="label" style="fill:#e6edf3">TypeScript</text><text x="326" y="136" class="label" text-anchor="end">2.3%</text></g>
 <g><circle cx="30" cy="153" r="5" fill="#f34b7d"/><text x="44" y="158" class="label" style="fill:#e6edf3">C++</text><text x="326" y="158" class="label" text-anchor="end">2.1%</text></g>
 <g><circle cx="30" cy="175" r="5" fill="#663399"/><text x="44" y="180" class="label" style="fill:#e6edf3">CSS</text><text x="326" y="180" class="label" text-anchor="end">1.3%</text></g>
 </svg>
