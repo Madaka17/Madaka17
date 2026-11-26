@@ -8,11 +8,6 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="https://bkksmartstreet.com"><img src="https://img.shields.io/badge/live-bkksmartstreet.com-8b5cf6?style=for-the-badge&labelColor=1a1033" alt="Live site"></a>
-  <img src="https://img.shields.io/badge/based_in-Bangkok-a78bfa?style=for-the-badge&labelColor=1a1033" alt="Based in Bangkok">
-</p>
-
 ## About
 
 I build web apps that turn public city data into pages anyone can read: where the traffic is jammed,
