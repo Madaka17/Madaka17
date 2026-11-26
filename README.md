@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://bkksmartstreet.com">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1000&color=C4B5FD&center=true&vCenter=true&width=680&lines=Live+traffic%2C+floods+and+air+for+Bangkok;AI+cameras+that+count+cars+and+spot+missing+helmets;Property+price+estimates+on+a+map;Everything+in+plain+Thai" alt="What I build">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1000&color=C4B5FD&center=true&vCenter=true&width=680&lines=Live+traffic%2C+floods+and+air+for+Bangkok;AI+cameras+that+count+cars+and+spot+missing+helmets;Property+price+estimates+on+a+map;Thai+OCR+for+images+and+PDFs+on+CPU;Everything+in+plain+Thai" alt="What I build">
   </a>
 </p>
 
@@ -24,23 +24,44 @@ where it is flooding, how the air is, and what a piece of land is worth.
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Madaka17/new_ccty_bangkok">BKK StreetSmart</a></h3>
+    <td width="100%" valign="top">
+      <h3>🚦 1 · <a href="https://github.com/Madaka17/new_ccty_bangkok">BKK StreetSmart</a></h3>
+      <blockquote>ดูรถติด น้ำท่วม ฝุ่น PM2.5 และกล้อง AI ของกรุงเทพฯ และปริมณฑล แบบสด ๆ ในเว็บเดียว</blockquote>
       Live traffic, floods, air quality and AI cameras for Bangkok and the nearby provinces, on one site in plain Thai.
-      YOLO counts vehicles and spots riders without helmets and wrong-way drivers.
+      YOLO watches hundreds of city cameras to count vehicles and spot riders without helmets and wrong-way drivers,
+      and an AI writes short summaries from the live numbers. Anyone can report a flood with a photo.
       <br><br>
-      <a href="https://bkksmartstreet.com"><b>bkksmartstreet.com</b></a>
+      <a href="https://bkksmartstreet.com"><img src="https://img.shields.io/badge/live-bkksmartstreet.com-8b5cf6?style=flat-square&labelColor=1a1033" alt="Live site"></a>
+      <a href="https://github.com/Madaka17/new_ccty_bangkok"><img src="https://img.shields.io/badge/repo-new__ccty__bangkok-a78bfa?style=flat-square&labelColor=1a1033&logo=github" alt="Repo"></a>
       <br><br>
       <img src="https://skillicons.dev/icons?i=py,fastapi,pytorch,opencv,react,vite,tailwind,sqlite,raspberrypi,cloudflare&perline=10" alt="BKK StreetSmart stack" height="32">
     </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Madaka17/web-app2">OpenPlot</a></h3>
+  </tr>
+  <tr>
+    <td width="100%" valign="top">
+      <h3>🏠 2 · <a href="https://github.com/Madaka17/web-app2">OpenPlot</a></h3>
+      <blockquote>แผนที่บ้านมือสองและโครงการใหม่ในกรุงเทพฯ และปริมณฑล คลิกตรงไหนก็ได้ราคาประเมิน</blockquote>
       A map of Bangkok and the ring provinces with resale listings and new projects.
-      Click a pin or an empty spot to get an asking-price estimate from a CatBoost + LightGBM + XGBoost model.
+      Click a pin or an empty spot to get an asking-price estimate from a CatBoost + LightGBM + XGBoost model
+      (test R² 0.858), and see whether a listing is priced above or below it.
       <br><br>
-      <a href="https://github.com/Madaka17/Prediction">Prediction</a>: the first prototype of the same app.
+      <a href="https://github.com/Madaka17/web-app2"><img src="https://img.shields.io/badge/repo-web--app2-a78bfa?style=flat-square&labelColor=1a1033&logo=github" alt="Repo"></a>
       <br><br>
       <img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind,py&perline=10" alt="OpenPlot stack" height="32">
+    </td>
+  </tr>
+  <tr>
+    <td width="100%" valign="top">
+      <h3>📄 3 · <a href="https://github.com/Madaka17/OCR">Thai OCR</a></h3>
+      <blockquote>อ่านข้อความภาษาไทยและอังกฤษจากรูปภาพและ PDF ทำงานบน CPU ไม่ต้องใช้ GPU</blockquote>
+      Reads Thai and English text from images and PDFs. Small files are read right in the browser, so they never
+      leave your computer; books up to 1,000 pages go to a job queue on the server. It draws boxes coloured by
+      confidence, finds empty fields in forms, and can summarise the document with a local AI.
+      <br><br>
+      <a href="https://github.com/Madaka17/OCR"><img src="https://img.shields.io/badge/repo-OCR-a78bfa?style=flat-square&labelColor=1a1033&logo=github" alt="Repo"></a>
+      <a href="https://huggingface.co/iapp/OpenThai2.1-OCR-Text-20261118"><img src="https://img.shields.io/badge/model-OpenThai2.1--OCR-6d5bd0?style=flat-square&labelColor=1a1033&logo=huggingface" alt="Model"></a>
+      <br><br>
+      <img src="https://skillicons.dev/icons?i=py,js,nodejs,opencv,html,css&perline=10" alt="Thai OCR stack" height="32">
     </td>
   </tr>
 </table>
