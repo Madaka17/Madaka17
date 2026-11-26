@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Vexila: live city data for Bangkok">
+  <img src="assets/banner.svg" width="100%" alt="Vexila: live city data, home prices and Thai OCR for Bangkok">
 </p>
 
 <p align="center">
