@@ -17,43 +17,22 @@ where it is flooding, how the air is, and what a piece of land is worth.
 
 ## Projects
 
-<table>
-  <tr>
-    <td width="100%" valign="top">
-      <h3>1 · <a href="https://bkksmartstreet.com">BKK StreetSmart</a></h3>
-      <blockquote>ดูรถติด น้ำท่วม ฝุ่น PM2.5 และกล้อง AI ของกรุงเทพฯ และปริมณฑล แบบสด ๆ ในเว็บเดียว</blockquote>
-      Live traffic, floods, air quality and AI cameras for Bangkok and the nearby provinces, on one site in plain Thai.
-      YOLO watches hundreds of city cameras to count vehicles and spot riders without helmets and wrong-way drivers,
-      and an AI writes short summaries from the live numbers. Anyone can report a flood with a photo.
-      <br><br>
-      <img src="https://skillicons.dev/icons?i=py,fastapi,pytorch,opencv,react,vite,tailwind,sqlite,raspberrypi,cloudflare&perline=10" alt="BKK StreetSmart stack" height="32">
-    </td>
-  </tr>
-  <tr>
-    <td width="100%" valign="top">
-      <h3>2 · <a href="https://openplot.bkksmartstreet.com">OpenPlot</a></h3>
-      <blockquote>แผนที่บ้านมือสองและโครงการใหม่ในกรุงเทพฯ และปริมณฑล คลิกตรงไหนก็ได้ราคาประเมิน</blockquote>
-      A map of Bangkok and the ring provinces with resale listings and new projects.
-      Click a pin or an empty spot to get an asking-price estimate from a CatBoost + LightGBM + XGBoost model
-      (test R² 0.858), and see whether a listing is priced above or below it.
-      <br><br>
-      <img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind,py&perline=10" alt="OpenPlot stack" height="32">
-    </td>
-  </tr>
-  <tr>
-    <td width="100%" valign="top">
-      <h3>3 · <a href="https://ocr.bkksmartstreet.com">Thai OCR</a></h3>
-      <blockquote>อ่านข้อความภาษาไทยและอังกฤษจากรูปภาพและ PDF ทำงานบน CPU ไม่ต้องใช้ GPU</blockquote>
-      Reads Thai and English text from images and PDFs. Small files are read right in the browser, so they never
-      leave your computer; books up to 1,000 pages go to a job queue on the server. It draws boxes coloured by
-      confidence, finds empty fields in forms, and can summarise the document with a local AI.
-      <br><br>
-      <a href="https://huggingface.co/iapp/OpenThai2.1-OCR-Text-20261118"><img src="https://img.shields.io/badge/model-OpenThai2.1--OCR-6d5bd0?style=flat-square&labelColor=1a1033&logo=huggingface" alt="Model"></a>
-      <br><br>
-      <img src="https://skillicons.dev/icons?i=py,js,nodejs,opencv,html,css&perline=10" alt="Thai OCR stack" height="32">
-    </td>
-  </tr>
-</table>
+<a href="https://bkksmartstreet.com"><img src="assets/card-streetsmart.svg" width="100%" alt="BKK StreetSmart"></a>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,fastapi,pytorch,opencv,react,vite,tailwind,sqlite,raspberrypi,cloudflare" alt="BKK StreetSmart stack" height="30">
+</p>
+
+<a href="https://openplot.bkksmartstreet.com"><img src="assets/card-openplot.svg" width="100%" alt="OpenPlot"></a>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind,py" alt="OpenPlot stack" height="30">
+</p>
+
+<a href="https://ocr.bkksmartstreet.com"><img src="assets/card-ocr.svg" width="100%" alt="Thai OCR"></a>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,js,nodejs,opencv,html,css" alt="Thai OCR stack" height="30">
+  <br>
+  <a href="https://huggingface.co/iapp/OpenThai2.1-OCR-Text-20261118"><img src="https://img.shields.io/badge/model-OpenThai2.1--OCR-6d5bd0?style=flat-square&labelColor=1a1033&logo=huggingface" alt="Model"></a>
+</p>
 
 ## Tools I use
 

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-label="OpenPlot: แผนที่บ้านและโครงการ คลิกตรงไหนก็ได้ราคาประเมิน">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0d1117"/><stop offset=".6" stop-color="#1a1033"/><stop offset="1" stop-color="#2a1458"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#a78bfa" stop-opacity=".35"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#a78bfa" stroke-opacity=".06"/>
+  </pattern>
+</defs>
+<style>
+  text { font-family: 'Segoe UI', 'Noto Sans', 'Noto Sans Thai', Ubuntu, sans-serif; }
+  .num { font-size: 64px; font-weight: 800; fill: #a78bfa; fill-opacity: .18; }
+  .name { font-size: 44px; font-weight: 700; fill: #f5f3ff; }
+  .th { font-size: 22px; fill: #c4b5fd; }
+  .li { font-size: 19px; fill: #c9d1d9; }
+  .dot { fill: #a78bfa; }
+  .url { font-size: 16px; font-weight: 600; fill: #ede9fe; letter-spacing: .5px; }
+  .pulse { animation: pulse 3s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  .dash { stroke-dasharray: 8 6; animation: march 1.2s linear infinite; }
+  .scan { animation: scan 3.5s ease-in-out infinite; }
+  .blink { animation: blink 2.4s ease-in-out infinite; }
+  @keyframes pulse { 0%,100% { opacity: .25; transform: scale(.8); } 50% { opacity: .9; transform: scale(1.15); } }
+  @keyframes march { to { stroke-dashoffset: -28; } }
+  @keyframes scan { 0%,100% { transform: translateY(0); } 50% { transform: translateY(170px); } }
+  @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+</style>
+<rect x="1" y="1" width="1198" height="328" rx="22" fill="url(#bg)" stroke="#3b2a6b" stroke-width="2"/>
+<rect x="1" y="1" width="1198" height="328" rx="22" fill="url(#grid)"/>
+<circle cx="985" cy="165" r="190" fill="url(#glow)"/>
+<text x="52" y="96" class="num">02</text>
+<text x="150" y="94" class="name">OpenPlot</text>
+<text x="56" y="146" class="th">แผนที่บ้านและโครงการ คลิกตรงไหนก็ได้ราคาประเมิน</text>
+<line x1="56" y1="166" x2="740" y2="166" stroke="#a78bfa" stroke-opacity=".2"/>
+<circle class="dot" cx="66" cy="199" r="4"/><text x="84" y="205" class="li">Resale homes and new projects around Bangkok</text>
+<circle class="dot" cx="66" cy="235" r="4"/><text x="84" y="241" class="li">Click any spot for an asking-price estimate</text>
+<circle class="dot" cx="66" cy="271" r="4"/><text x="84" y="277" class="li">CatBoost + LightGBM + XGBoost · test R² 0.858</text>
+<rect x="840.8" y="268" width="309.2" height="36" rx="18" fill="#8b5cf6" fill-opacity=".9"/>
+<text x="858.8" y="292" class="url">openplot.bkksmartstreet.com  ↗</text>
+<g transform="translate(860 50)">
+  <rect x="0" y="0" width="250" height="170" rx="14" fill="#0d1117" stroke="#3b2a6b" stroke-width="2"/>
+  <path d="M0 120 C60 100 90 140 150 110 S230 70 250 80" stroke="#3b82f6" stroke-opacity=".5" stroke-width="10" fill="none"/>
+  <path d="M40 0 V170 M0 50 H250 M170 0 V170" stroke="#3b2a6b" stroke-width="3"/>
+  <g fill="#6d5bd0"><circle cx="70" cy="80" r="7"/><circle cx="200" cy="130" r="7"/><circle cx="210" cy="30" r="7"/><circle cx="100" cy="145" r="7"/></g>
+  <circle class="pulse" cx="130" cy="78" r="22" fill="#a78bfa" fill-opacity=".35"/>
+  <path d="M130 92 C118 76 114 68 114 60 a16 16 0 0 1 32 0 c0 8 -4 16 -16 32 Z" fill="#c4b5fd"/>
+  <circle cx="130" cy="60" r="6" fill="#1a1033"/>
+  <rect x="146" y="14" width="88" height="34" rx="10" fill="#8b5cf6"/>
+  <text x="158" y="37" style="font-size:16px;font-weight:700;fill:#fff">฿4.2M</text>
+</g>
+</svg>
