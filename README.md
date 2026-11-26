@@ -39,16 +39,3 @@ where it is flooding, how the air is, and what a piece of land is worth.
 <p align="center">
   <img src="https://skillicons.dev/icons?i=py,fastapi,pytorch,opencv,react,ts,js,vite,tailwind,sqlite,linux,raspberrypi,cloudflare,git&perline=14" alt="Tools">
 </p>
-
-## Activity
-
-<p align="center">
-  <img src="assets/stats.svg" alt="GitHub activity" height="180">
-  <img src="assets/langs.svg" alt="Languages in public repos" height="180">
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Madaka17&background=0D1117&border=3B2A6B&stroke=3B2A6B&ring=A78BFA&fire=C4B5FD&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=C4B5FD&sideLabels=8B949E&dates=8B949E&border_radius=10" alt="Contribution streak">
-</p>
-
-<sub>The activity cards are redrawn every day by a GitHub Action in this repository.</sub>
