@@ -32,7 +32,6 @@ where it is flooding, how the air is, and what a piece of land is worth.
       and an AI writes short summaries from the live numbers. Anyone can report a flood with a photo.
       <br><br>
       <a href="https://bkksmartstreet.com"><img src="https://img.shields.io/badge/live-bkksmartstreet.com-8b5cf6?style=flat-square&labelColor=1a1033" alt="Live site"></a>
-      <a href="https://github.com/Madaka17/new_ccty_bangkok"><img src="https://img.shields.io/badge/repo-new__ccty__bangkok-a78bfa?style=flat-square&labelColor=1a1033&logo=github" alt="Repo"></a>
       <br><br>
       <img src="https://skillicons.dev/icons?i=py,fastapi,pytorch,opencv,react,vite,tailwind,sqlite,raspberrypi,cloudflare&perline=10" alt="BKK StreetSmart stack" height="32">
     </td>
@@ -45,7 +44,7 @@ where it is flooding, how the air is, and what a piece of land is worth.
       Click a pin or an empty spot to get an asking-price estimate from a CatBoost + LightGBM + XGBoost model
       (test R² 0.858), and see whether a listing is priced above or below it.
       <br><br>
-      <a href="https://github.com/Madaka17/web-app2"><img src="https://img.shields.io/badge/repo-web--app2-a78bfa?style=flat-square&labelColor=1a1033&logo=github" alt="Repo"></a>
+      <a href="https://openplot.bkksmartstreet.com"><img src="https://img.shields.io/badge/live-openplot.bkksmartstreet.com-8b5cf6?style=flat-square&labelColor=1a1033" alt="Live site"></a>
       <br><br>
       <img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind,py&perline=10" alt="OpenPlot stack" height="32">
     </td>
@@ -58,7 +57,7 @@ where it is flooding, how the air is, and what a piece of land is worth.
       leave your computer; books up to 1,000 pages go to a job queue on the server. It draws boxes coloured by
       confidence, finds empty fields in forms, and can summarise the document with a local AI.
       <br><br>
-      <a href="https://github.com/Madaka17/OCR"><img src="https://img.shields.io/badge/repo-OCR-a78bfa?style=flat-square&labelColor=1a1033&logo=github" alt="Repo"></a>
+      <a href="https://ocr.bkksmartstreet.com"><img src="https://img.shields.io/badge/live-ocr.bkksmartstreet.com-8b5cf6?style=flat-square&labelColor=1a1033" alt="Live site"></a>
       <a href="https://huggingface.co/iapp/OpenThai2.1-OCR-Text-20261118"><img src="https://img.shields.io/badge/model-OpenThai2.1--OCR-6d5bd0?style=flat-square&labelColor=1a1033&logo=huggingface" alt="Model"></a>
       <br><br>
       <img src="https://skillicons.dev/icons?i=py,js,nodejs,opencv,html,css&perline=10" alt="Thai OCR stack" height="32">
